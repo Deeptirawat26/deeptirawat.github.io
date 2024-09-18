@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+<!-- Navigation Bar -->
+<nav class="navbar bg-pink-300 p-4 fixed w-full top-0 z-10">
+  <ul class="nav-list flex flex-wrap justify-center space-x-4">
+    <li><a href="#home" class="nav-link text-white hover:underline">home</a></li>
+    <li><a href="#about" class="nav-link text-white hover:underline">about</a></li>
+    <li><a href="#experience" class="nav-link text-white hover:underline">experience</a></li>
+    <li><a href="#projects" class="nav-link text-white hover:underline">projects</a></li>
+    <li><a href="#contact" class="nav-link text-white hover:underline">contact</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Home Section -->
+  <section id="home" class="home-section flex items-center justify-between p-8">
+    <div class="w-1/2 flex items-center justify-center">
+      <img src="images/img2.png" alt="Left Image" class="w-full h-auto max-w-full">
+    </div>
+    <div class="w-1/2 flex items-center justify-center">
+      <img src="images/img1.png" alt="Right Image" class="w-full h-auto max-w-full">
+    </div>
+  </section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <div class="section-content">
+    <!-- Intro Paragraph (Top) -->
+    <div class="intro-container">
+      <p class="intro-paragraph">
+        Hi, I am Deepti Rawat, and I believe ambition can change your life. I love computer science and mathematics, learning new things, and problem-solving. I like creating web applications and backends, as well as deploying them. I am also interested in Cybersecurity, especially Offensive Security and Cryptography. When not following my dreams, I like discovering new music and reading Jane Austen.
+      </p>
+    </div>
+
+    <!-- Education Details (Middle) -->
+    <div class="education-container">
+      <h3 class="education-heading">Education</h3>
+      <div class="education-details">
+        <div class="education-item">
+          <strong>Guru Gobind Singh Indraprastha University</strong> 2020-24
+        </div>
+        <div class="education-item">
+          Bachelor of Technology, Computer Science Engineering
+        </div>
+        <div class="education-item">
+          <strong>Lady Irwin Senior Secondary School</strong> 2020
+        </div>
+      </div>
+    </div>
+
+    <!-- Technical Skills Section (Bottom) -->
+    <div class="skills-container">
+      <h3 class="skills-heading">Technical Skills</h3>
+      <div class="skills-list">
+        <div class="skills-category">
+          <strong>Programming Languages:</strong> Python, C++, HTML5, CSS, Javascript, SQL
+        </div>
+        <div class="skills-category">
+          <strong>Libraries/Frameworks:</strong> React, Node.js, Django, Flask, REST API
+        </div>
+        <div class="skills-category">
+          <strong>Tools / Platforms:</strong> Git, Github, Linux, Windows, VMWare, Postman, AWS, Jenkins, CI/CD
+        </div>
+        <div class="skills-category">
+          <strong>Databases:</strong> MySQL, MongoDB, PostgreSQL
+        </div>
+        <div class="skills-category">
+          <strong>Additional Tools:</strong> Nmap, Wireshark, Burpsuite, Metasploit
+        </div>
+        <div class="skills-category">
+          <strong>Skills:</strong> Cybersecurity, Network Security, Web Application Security, OWASP Top 10, API Security
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Experience Section -->
+<section id="experience" class="experience-section">
+  <div class="section-content">
+    <h2 class="section-heading">experience</h2>
+
+    <!-- Experience Item 1 -->
+    <div class="experience-item">
+      <h3 class="job-title">Cybersecurity and Digital Forensics Internship</h3>
+      <p class="company-name">Cyber Secured India</p>
+      <p class="year">Sept 2024 - Nov 2024</p>
+    </div>
+
+    <!-- Experience Item 2 -->
+    <div class="experience-item">
+      <h3 class="job-title">Subject Matter Expert Internship</h3>
+      <p class="company-name">Vcriate</p>
+      <p class="year">July 2024 - Sept 2024</p>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <div class="section-content">
+    <h2 class="section-heading">projects</h2>
+    <!-- Project 1 -->
+    <div class="project">
+      <h3 class="project-heading">Django Security Framework</h3>
+      <a href="https://github.com/Deeptirawat26/django-security-framework" target="_blank">Link↗</a>
+      <p class="project-description">Developed a secure website for file encryption and decryption using clean backend coding practices, optimizing
+        user data protection and software performance. Implemented advanced threat detection and policy enforcement, enhancing software design and adhering to best
+        practices in backend development. Designed and integrated user registration and authentication systems, ensuring code optimization and robust
+        security standards.</p>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+      <h3 class="project-heading">CI/CD Pipeline</h3>
+      <a href="https://github.com/Deeptirawat26/flask-site" target="_blank">Link↗</a>
+      <p class="project-description">Set up a basic CI/CD pipeline using Jenkins to automate build, test, and deployment processes, ensuring
+        continuous integration and delivery. Integrated AWS CodeDeploy for seamless deployment of applications, enhancing deployment efficiency and
+        reliability. Configured auto-scaling to dynamically adjust resources based on demand, optimizing performance and cost
+        management.
+        </p>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Contact Section -->
+ <section id="contact" class="min-h-screen bg-gray-100 p-8 flex flex-col md:flex-row items-center justify-between">
+  <!-- Playlist Embed -->
+    <div class="w-full md:w-1/2 p-4">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5PFEMxewVyDsEktCLRhA20?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <!-- Contact Info and Icons -->
+    <div class="w-full md:w-1/2 p-4 flex flex-col items-center md:items-start">
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#31302C] mb-6">let's connect</h2>
+      <div class="flex flex-col items-center space-y-4">
+        <a href="mailto:deeptirawat.business@gmail.com" class="text-[#31302C] text-3xl hover:text-pink-600">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/deeptirawat26" target="_blank" class="text-[#31302C] text-3xl hover:text-blue-600">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/deeptirawat26" target="_blank" class="text-[#31302C] text-3xl hover:text-gray-600">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

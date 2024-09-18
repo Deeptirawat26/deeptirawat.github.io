@@ -1,0 +1,292 @@
+/* Ensure full height for sections */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Navigation bar styling */
+  .navbar {
+    background-color: #0a010100; 
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 0.75rem;
+    font-weight: 500;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .nav-link {
+    padding: 8px 16px; /* Reduced padding */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    margin: 0 0.5rem; /* Reduced margin */
+  }
+}
+  /* Styling for sections */
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .home-section img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .home-section > div {
+    width: 42.5%; 
+  }
+  
+  /* Specific section styles */
+  .home-section {
+    height: 100vh;
+    background-color: #31302C; 
+  }
+  
+  .about-section {
+    background-color: #ffffff; 
+  }
+  
+  .projects-section {
+    background-color: #31302C; 
+  }
+  
+  .contact-section {
+    background-color: #fffefe;
+  }
+  
+/* About Section Heading Styling */
+#about .section-heading {
+  color: #31302C;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Flexbox to Align the Content */
+#about .section-content {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 20px;
+}
+
+/* Flexbox Adjustment for Mobile Screens */
+@media (max-width: 768px) {
+  #about .section-content {
+    align-items: center; /* Center content horizontally */
+  }
+}
+
+/* Styling for the Intro Paragraph */
+#about .intro-container {
+  width: 100%;
+  margin-bottom: 20px; /* Space below intro paragraph */
+}
+
+#about .intro-paragraph {
+  font-size: 1.2rem;
+  font-family: 'Lora', serif;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Styling for Education Details */
+#about .education-container {
+  width: 100%;
+  margin-bottom: 20px; /* Space below education details */
+}
+
+#about .education-heading {
+  font-size: 1.5rem;
+  color: #31302C;
+  font-weight: bold;
+  margin-bottom: 10px; /* Space below education heading */
+}
+
+#about .education-details {
+  font-size: 1rem; 
+  font-family: 'Lora', serif;
+  color: #333;
+}
+
+#about .education-item {
+  margin-bottom: 10px;
+}
+
+#about .education-item strong {
+  font-weight: bold;
+}
+
+/* Styling for Technical Skills Section */
+#about .skills-container {
+  width: 100%;
+}
+
+#about .skills-heading {
+  font-size: 1.5rem;
+  color: #31302C;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#about .skills-list {
+  font-family: 'Lora', serif;
+  color: #333;
+}
+
+#about .skills-category {
+  margin-bottom: 10px;
+}
+
+#about .skills-category strong {
+  font-weight: bold;
+}
+/* Experience Section Styles */
+#experience .section-heading {
+  color: #31302C;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#experience .section-content {
+  padding: 20px;
+  font-family: 'Lora', serif;
+}
+
+/* Styling for Individual Experience Items */
+#experience .experience-item {
+  margin-bottom: 20px;
+}
+
+#experience .job-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #31302C;
+  margin-bottom: 5px;
+}
+
+#experience .company-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+#experience .year {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Flexbox Adjustment for Mobile Screens */
+@media (max-width: 768px) {
+  #experience .section-content {
+    text-align: center; 
+  }
+}
+
+
+ /* Project Section Styling */
+ #projects .section-heading {
+  color: #fffffd;
+  font-weight: bold; 
+  font-size: 3rem; 
+  text-align: center; 
+  margin-bottom: 60px; 
+}
+#projects .section-content {
+  padding: 20px;
+}
+
+#projects .project {
+  margin-bottom: 60px;
+}
+
+#projects .project-heading {
+  color: #ffffff; 
+  font-size: 1.5rem; 
+  margin-bottom: 5px; 
+  font-family: 'Lora', serif;
+}
+
+#projects .project a {
+  color: #f5d8a4;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+}
+
+#projects .project a:hover {
+  text-decoration: underline; 
+}
+
+#projects .project-description {
+  font-size: 1rem; 
+  color: #cfcdcd; 
+  margin-top: 5px; 
+  margin: 0 auto;
+  line-height: 1.6; 
+  text-align: center; 
+  font-family: 'Lora', serif;
+}
+
+  @media (min-width: 768px) {
+    .home-heading {
+      font-size: 3rem;
+    }
+  
+    .section-heading {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .home-heading {
+      font-size: 3.5rem;
+    }
+  
+    .section-heading {
+      font-size: 2.5rem;
+    }
+  }
+  #contact iframe {
+    max-width: 100%; 
+  }
+  
+  #contact h2 {
+    color: #31302C; 
+  }
+  
+  #contact .fa {
+    font-size: 2rem; 
+  }
+  
+  #contact .fa:hover {
+    color: #D44638; 
+  }
+  
